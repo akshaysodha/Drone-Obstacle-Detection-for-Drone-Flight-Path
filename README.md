@@ -69,5 +69,5 @@ This project presents a real-time obstacle detection system designed to enhance 
 - Achieves **30+ FPS** with minimal latency (**<220 ms**).
 - RESTful API enables integration with drone control systems.
 
-![Streamlit UI Screenshot](media/Streamlit UI.png)
+
 
