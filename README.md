@@ -48,17 +48,15 @@ This project presents a real-time obstacle detection system designed to enhance 
 ---
 
 ## 🔁 Project Pipeline
-📥 Dataset Ingestion →
 
-🧠 Annotation (Grounded SAM) →
-
-🧼 Preprocessing (resize, augment, normalize) →
-
-🧪 Model Training + Tuning →
-
-📊 Evaluation (mAP, F1, latency) →
-
-🚀 Deployment (GCP + Streamlit)
+| Stage           | Description                            |
+|-----------------|----------------------------------------|
+| 📥 Ingestion     | Load DDOS dataset from cloud storage   |
+| 🧠 Annotation    | Grounded SAM + Roboflow labeling       |
+| 🧼 Preprocessing | Resize, augment, normalize             |
+| 🧪 Training      | Train YOLOv11, Faster R-CNN, RT-DETR   |
+| 📊 Evaluation    | Analyze mAP, F1, latency               |
+| 🚀 Deployment    | GCP + Streamlit + Flask API            |
 
 ---
 
